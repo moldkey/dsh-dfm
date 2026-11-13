@@ -1,0 +1,33 @@
+{
+  "name": "dsh-dfm",
+  "version": "0.1.0",
+  "description": "可制造性检查清单与报价准备：CNC/钣金/注塑/压铸/3D 打印",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dfm",
+    "可制造性",
+    "quote",
+    "manufacturing"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-dfm.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.0-rc.2"
+  }
+}
